@@ -1,12 +1,78 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
 
-/* 
+.wrap{
+    
+   
+    background: linear-gradient(rgb(32, 0, 44),rgb(123, 0, 167), orange);
+    padding-block: 20vh;
+    width: 50%;
+    margin:auto;
+   
 
-    You can write your own styles here...
+}
+
+
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.box{
+    width: 230px;
+    margin: auto;
+    background-color:black;
+    padding-block:20px;
+    border-radius: 40px;
+    
+    
+}
+.RedLight {
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: rgb(105, 1, 1);
+    margin-block: 30px;
+
+}
+.YellowLight {
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: rgb(105, 100, 1);
+}
+
+.GreenLight {
+
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: rgb(0, 71, 14);
+    margin-block: 30px;
+}
+
+.selectedRed{
+
+    background-color: red;
+    box-shadow: 0px 0px 60px 30px rgb(127, 10, 10);
+
+}
+
+.selectedYellow{
+
+    background-color: yellow;
+    box-shadow: 0px 0px 60px 30px rgb(128, 147, 0);
+
+}
+
+.selectedGreen{
+
+    background-color: rgb(0, 219, 0);
+    box-shadow: 0px 0px 60px 30px rgb(70, 139, 0);
+
+}
