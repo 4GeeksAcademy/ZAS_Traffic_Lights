@@ -1,11 +1,12 @@
 body {
-  background-color: rgb(0, 0, 0);
+  background-image:url("https://imgs.search.brave.com/NexQqp3GIyPY-ZaRcTBs6UjFTuhkzs8lY4QKmGZE7tk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjI0/NDg5MTg0L3Bob3Rv/L21vdGlvbi1ibHVy/LWNpdHktdHJhZmZp/Yy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9cGd3VDA3eGxD/TnRBUV92NUtUN3NO/VWJRbGJvek1yU0cx/TE5oTWo3U1VlST0");
+    background-size:cover;
 }
 
 .wrap{
     
    
-    background: linear-gradient(rgb(32, 0, 44),rgb(123, 0, 167), orange);
+    
     padding-block: 20vh;
     width: 50%;
     margin:auto;
