@@ -1,11 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 
 
 const TrafficLights = () => {
 
-    const [activeLight, setActiveLight] = useState("red");
+    const [activeLight, setActiveLight] = useState("rgb(0, 71, 14)");
+    const colors = ["rgb(0, 71, 14)","rgb(105, 100, 1)","rgb(105, 1, 1)"]
+    let index = 0
+
+    useEffect(() => {
+        console.log("useEffect");
+        
+        const intervalId = setInterval(() => {
+            
+            index = (index + 1) % colors.length; 
+            setActiveLight(colors[index]);
+        }, 5000); 
+
+        return () => clearInterval(intervalId); 
+    }, []);
+
+    
+
+  
 
     return (
         <div className="wrap">
